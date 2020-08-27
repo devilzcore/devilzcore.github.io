@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #181818;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 70px auto 70px;
+    grid-template-areas: "header header" "profile main" "footer footer";
+}
+
+header {
+    grid-area: header;
+}
+
+header h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+
+    text-align: end;
+
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.profile {
+    display: flex;
+    justify-content: flex-start;
+    
+    grid-area: profile;
+    margin: 5rem 6rem;
+}
+
+.profile img {
+    border-radius: 50%;
+    max-width: 171px;
+    max-height: 171px;
+    width: auto;
+    height: auto;
+}
+
+.profile .bio {
+    display: block;
+
+    margin: 2rem 1.5rem;
+    color: #FFFFFF;
+}
+
+.profile .bio h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    }
+
+.profile .bio h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    margin: 0.6rem 0 1.5rem 0;
+}
+
+.profile .bio a {
+    margin-right: 0.5rem;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#particles-js { 
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    background-image: url(""); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: 50% 50%; 
+    z-index: -1;
+} 
+

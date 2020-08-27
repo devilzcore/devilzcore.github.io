@@ -1,1 +1,0 @@
-devilzcore.github.io
