@@ -34,12 +34,15 @@ export const Container = styled.div`
     display: flex;
   }
 
-  .profile img {
-    margin-left: 5rem;
+  .profile {
+    display: flex;
+    justify-content: center;
+  }
 
+  .profile img {
     border-radius: 50%;
-    max-width: 275px;
-    max-height: 275px;
+    max-width: 17.188rem;
+    max-height: 17.188rem;
 
     width: auto;
     height: auto;
@@ -54,12 +57,8 @@ export const Container = styled.div`
       display: block;
     }
 
-    .wrapper {
-      margin-top: 1rem;
-    }
-
-    .profile img {
-      margin-left: 9rem;
+    .profile {
+      margin-top: 11rem;
     }
   }
 `
