@@ -48,7 +48,7 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
 
-          <link rel="icon" href="../assets/imalduos.svg" />
+          <link rel="icon" href="https://raw.githubusercontent.com/devilzcore/devilzcore.github.io/master/src/assets/imalduos.ico" />
         </Head>
         <body>
           <Main />
