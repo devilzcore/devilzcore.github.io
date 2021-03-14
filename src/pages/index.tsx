@@ -19,7 +19,7 @@ const Home: React.FC = () => {
           <div className="about">
             <h1>I'm Aldo, software engineer.</h1>
             <p>I specialize in rapidly building software companies and web applications.</p>
-            <p>HTML5 / CSS3 / Javascript / ReactJS / C# </p>
+            <p>HTML5 / CSS3 / Javascript / ReactJS / C#</p>
           </div>
         </div>
       </div>

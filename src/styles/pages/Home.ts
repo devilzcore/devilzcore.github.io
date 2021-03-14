@@ -53,12 +53,35 @@ export const Container = styled.div`
   }
 
   @media (max-width: 768px) {
+    .wrapper {
+      justify-content: center;
+    }
+
     .content {
       display: block;
     }
+  }
 
+  @media (max-width: 540px) {
+    .wrapper {
+      margin-top: 2.5rem;
+    }
+  }
+
+  @media (max-width: 360px) {
+    .wrapper {
+      margin-top: 12rem;
+    }
+  }
+
+  @media (max-width: 280px) {
     .profile {
-      margin-top: 11rem;
+      margin-top: 9rem;
+    }
+
+    .profile img {
+      width: 14rem;
+      height: 14rem;
     }
   }
 `
